@@ -1,0 +1,8 @@
+audio_quality = medium
+#autostart_station = <station_number>
+#password = "password"
+#password_command = cat /var/www/private/password
+tls_fingerprint = FC2E6AF49FC63AEDAD1078DC22D1185B809E7534
+user = username@email.com
+fifo = /var/www/pianobar-ctl
+volume = 0
