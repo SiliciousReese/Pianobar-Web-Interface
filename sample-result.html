@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Pianobar Web Interface</title>
+    <link rel="stylesheet" href="www/html/styles.css">
+    <meta name="author" content="Daniel Darnell">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Daniel's Pianobar Web Interface</h1>
+</header>
+
+
+
+<form id="pianobar-action-form" method="post" action="/index.php">
+    <input name="action" value=")" id="up-volume" type="radio">
+    <label for="up-volume">Increase Volume</label><br>
+
+    <input name="action" value="(" id="down-volume" type="radio">
+    <label for="down-volume">Decrease Volume</label><br>
+
+    <input name="action" value="+" id="like" type="radio">
+    <label for="like">Like Song</label><br>
+
+    <input name="action" value="n" id="next" type="radio">
+    <label for="next">Next song</label><br>
+
+    <input name="action" value="p" id="pause" type="radio">
+    <label for="pause">Pause</label><br>
+
+    <input name="action" value="q" id="quit" type="radio">
+    <label for="quit">Quit Pianobar</label><br>
+
+    <input name="action" value="s" id="switch" type="radio">
+    <label for="switch">Switch Stations</label><br>
+    <input name="station" id="station" min="0" max="100" value="0" type="number">
+    <label for="station">Station Number</label><br>
+
+    <input name="submit" type="submit">
+</form>
+
+<div id="pianobar-station-history"><h2>Station List</h2><p>0) q   30 Seconds to Mars Radio<br>1) q   A Day To Remember Radio<br>2) q   Adelitas Way Radio<br>3) q   Alestorm Radio<br>4) q   All Signs Point To Lauderdale Radio<br>5) q   Anberlin Radio<br>6) q   Bullet For My Valentine Radio<br>7) q   Calm Meditation Radio<br>8) q   Chevelle Radio<br>9)     Christian Contemporary Radio<br>10) q   Classic Rock Radio<br>11) q   Classical New Age Piano Music Radio<br>12) q   Click Click Boom Radio<br>13) q   Come On Eileen Radio<br>14) q   Deuce Radio<br>15) q S Disturbed Radio<br>16) q   Dubstep Radio<br>17) q   Evanescence Radio<br>18) q   Face Down (Acoustic) Radio<br>19) q   Face Down Radio<br>20) q   Flyleaf Radio<br>21) q   Fort Minor Radio<br>22) q   Framing Hanley Radio<br>23) q   Get Up! Radio<br>24) q   Good Charlotte Radio<br>25) q   Green Day Radio<br>26)     Halsey Radio<br>27) q   Hit The Floor Radio<br>28) q   Hollywood Undead Radio<br>29)     I Miss You Radio<br>30) q   Imagine Dragons Radio<br>31) q   Imagine Radio<br>32)     John Williams (Composer) Radio<br>33) q   Jumper Radio<br>34) q   Killswitch Engage Radio<br>35) q   Korn Radio<br>36) q   Limp Bizkit Radio<br>37) q   Memory Radio<br>38) q   Merle Haggard Radio<br>39) q   Movie Soundtracks Radio<br>40) q   My Chemical Romance Radio<br>41) q   My Darkest Days Radio<br>42)     Nirvana Radio<br>43) q   Peaceful Seclusion Radio<br>44)  Q  QuickMix<br>45) q   Rise Against Radio<br>46) q   Rooftops (A Liberation Broadcast) Radio<br>47) q   Sick Puppies Radio<br>48) q   Simple Plan Radio<br>49) q   Slipknot Radio<br>50) q   Solo Piano Radio<br>51)     Star Wars (Film Score) Radio<br>52) q   Story Of The Year Radio<br>53)     Styx Radio<br>54) q   Sum 41 Radio<br>55) q   The Beatles Radio<br>56) q   The Killers Radio<br>57) q   The Lord Of The Rings (Film Score) Radio<br>58) q   The Red Jumpsuit Apparatus Radio<br>59) q   The Sound Of Silence Radio<br>60) q   Theory Of A Deadman Radio<br>61) q   Third Eye Blind Radio<br>62)     Thumbprint Radio<br>63) q   U2 Radio<br>64) q   Yellowcard Radio<br>65)     YFN Lucci Radio<br></p></div><div id="pianobar-song-history"><h2>Songs Played</h2><p>"Lady" by "Styx" on "The Complete Wooden Nickel Recordings"<br>"Search And Destroy" by "30 Seconds to Mars" on "This Is War"<br>"All Around Me" by "Flyleaf" on "Flyleaf (Special Edition)"<br>"Driven Under" by "Seether" on "Disclaimer"<br>"Remedy" by "Under The Flood" on "The Witness"<br>"Vox Populi" by "30 Seconds to Mars" on "This Is War"<br></p></div>
+</div>
+
+
+</body></html>
